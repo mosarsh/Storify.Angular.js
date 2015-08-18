@@ -1,0 +1,36 @@
+<div class="col-md-12" ng-controller="NewstoryCtrl">
+    <form name="storyForm" class="form-horizontal" ng-submit="AddStory()" novalidate>
+        <div class="form-group"  ng-class="{'has-error': storyForm.title.$invalid}">
+            <label class="col-sm-2 control-label">Title</label>
+            <div class="col-sm-10">
+                <input name="title" type="text" class="form-control" ng-model="story.Title" required>
+                <p ng-show="StoryForm.Title.$invalid && !StoryForm.Title.$pristine" class="help-block">You name is required.</p>
+            </div>
+        </div>
+        <div class="form-group"  ng-class="{'has-error': storyForm.description.$invalid}">
+            <label class="col-sm-2 control-label">Description</label>
+            <div class="col-sm-10">
+                <input name="description" type="text" class="form-control" ng-model="story.Description" required>
+            </div>
+        </div>
+        <div class="form-group" ng-class="{'has-error': storyForm.content.$invalid}">
+            <label class="col-sm-2 control-label">Content</label>
+            <div class="col-sm-10">
+                <textarea name="content" class="form-control" rows="3" ng-model="story.Content" required></textarea>
+            </div>
+        </div>
+        <div class="form-group" ng-class="{'has-error': storyForm.group.$invalid}">
+            <label class="col-sm-2 control-label">Group</label>
+            <div class="col-sm-10">
+                <select name="group" class="form-control" ng-model="story.Group" ng-options="group.Name for group in groups">
+                    <option value="">-- Choose group --</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group pull-right">
+            <button type="submit" class="btn btn-primary">Add Story</button>
+            <a href="/#/story" class="btn btn-primary">Back</a>
+        </div>
+    </form>
+
+</div>

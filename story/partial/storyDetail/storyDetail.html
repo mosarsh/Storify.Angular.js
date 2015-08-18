@@ -1,0 +1,38 @@
+<div class="col-md-12" ng-controller="StorydetailCtrl">
+    <form class="form-horizontal">
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Title</label>
+            <div class="col-sm-10">
+                <p class="form-control-static" ng-bind="story.Title"></p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Description</label>
+            <div class="col-sm-10">
+                <p class="form-control-static" ng-bind="story.Description"></p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Content</label>
+            <div class="col-sm-10">
+                <p class="form-control-static" ng-bind="story.Content"></p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Posted on</label>
+            <div class="col-sm-10">
+                <p class="form-control-static" ng-bind="story.PostedOn"></p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Group Name</label>
+            <div class="col-sm-10">
+                <p class="form-control-static" ng-bind="story.GroupName"></p>
+            </div>
+        </div>
+        <div class="form-group pull-right">
+            <a href="/#/editStory/{{story.StoryId}}/{{story.GroupId}}" class="btn btn-primary">Edit</a>
+            <a href="/#/story" class="btn btn-primary">Back</a>
+        </div>
+    </form>
+</div>
