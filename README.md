@@ -22,4 +22,4 @@ $ bower install
 ### Run server:
 Inside main dir run `grunt serve`
 
-open browser: http://localhost:9001
+Open browser: `http://localhost:9001`
