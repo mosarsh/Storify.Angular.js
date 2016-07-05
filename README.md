@@ -7,7 +7,7 @@ This is a SPA application with AngularJS that allows users to post stories, crea
 3. grunt - `npm install -g grunt-cli`
 
 ### Local setup:
-1. Clone repository
+1. Clone repository `https://github.com/YOUR_USERNAME/Storify.Angular.js.git`. YOUR_USERNAME - Change to your GitHub username
 2. Install all dependencies:
 
 ```
