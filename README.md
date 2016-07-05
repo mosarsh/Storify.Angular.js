@@ -1,5 +1,5 @@
 # Description
-The SPA application with AngularJS that allows users to post stories, create and join groups, and share stories with other groups.
+This is a SPA application with AngularJS that allows users to post stories, create and join groups, and share stories with other groups.
 
 ### Requirements:
 1. node - download installer from `http://nodejs.org`
