@@ -1,7 +1,7 @@
 # Description Module
 
 ### Requirements:
-1. node - download installer from `http://nodejs.org` or use `brew`
+1. node - download installer from `http://nodejs.org`
 2. bower - `npm install -g bower`
 3. grunt - `npm install -g grunt-cli`
 
