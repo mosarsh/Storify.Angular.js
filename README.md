@@ -9,8 +9,9 @@ This is a SPA application with AngularJS that allows users to post stories, crea
 ### Local setup:
 1. Clone repository 
 ```
-https://github.com/YOUR_USERNAME/Storify.Angular.js.git. 
-YOUR_USERNAME - Change to your GitHub username
+https://github.com/YOUR_USERNAME/Storify.Angular.js.git
+
+YOUR_USERNAME -> Change to your GitHub username
 ```
 2. Install all dependencies:
 ```
