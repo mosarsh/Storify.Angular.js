@@ -19,4 +19,4 @@ $ bower install
 ```
 
 ### Run server:
-Inside main dir run `grunt watch`
+Inside main dir run `grunt serve`
